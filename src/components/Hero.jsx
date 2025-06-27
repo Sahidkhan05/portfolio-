@@ -1,0 +1,98 @@
+import React from "react";
+
+const Hero = () => {
+  return (
+   <section className="relative overflow-hidden min-h-screen flex items-center justify-center px-4 py-16">
+      
+      {/* Inline SVG background */}
+      <div className="absolute top-0 left-0 w-full h-full -z-10 opacity-20">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          width="100%"
+          height="100%"
+          preserveAspectRatio="none"
+          viewBox="0 0 1440 560"
+          className="w-full h-full"
+          dangerouslySetInnerHTML={{
+            __html: `
+            <g mask="url(#SvgjsMask2000)" fill="none">
+              <rect width="1440" height="560" x="0" y="0" fill="url(#SvgjsLinearGradient2001)"></rect>
+              <path d="M187.00940803368883 72.08593263956593L83.57828017897822-60.29987396636335-48.80752642695106 43.13125388834726 54.62360142775955 175.51706049427654z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float1"></path>
+              <path d="M-33.25511055654997 28.711974225877896L100.11606267111787 167.08553117584762 149.23450906453763 6.426332174057677z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float2"></path>
+              <path d="M-85.13 10.46 a95.59 95.59 0 1 0 191.18 0 a95.59 95.59 0 1 0 -191.18 0z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float1"></path>
+              <path d="M1233.99 19.34 a113.35 113.35 0 1 0 226.7 0 a113.35 113.35 0 1 0 -226.7 0z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float1"></path>
+              <path d="M1268.5560885028367-7.991605077989767L1314.8631642800926 153.50035983964776 1476.35512919773 107.1932840623918 1430.0480534204742-54.29868085524573z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float1"></path>
+              <path d="M1198.67 54.67 a184 184 0 1 0 368 0 a184 184 0 1 0 -368 0z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float2"></path>
+              <path d="M-99.31 472.64 a123.95 123.95 0 1 0 247.9 0 a123.95 123.95 0 1 0 -247.9 0z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float2"></path>
+              <path d="M10.751102110341876 422.3688273336564L10.567945645382878 614.553836022733 157.50405644480136 533.1058198213484z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float2"></path>
+              <path d="M128.46,729.735C181.917,728.773,227.799,695.55,254.679,649.332C281.725,602.83,288.77,546.013,262.673,498.972C235.842,450.607,183.639,418.019,128.46,421.815C78.143,425.277,48.085,471.816,22.828,515.473C-2.485,559.227,-28.23,608.681,-5.878,654.02C18.483,703.434,73.376,730.726,128.46,729.735" fill="rgba(28, 83, 142, 0.4)" class="triangle-float3"></path>
+              <path d="M1431.07,673.84C1475.538,675.419,1516.829,651.931,1540.404,614.194C1565.545,573.952,1576.113,522.09,1551.038,481.807C1526.961,443.126,1476.464,434.635,1431.07,438.547C1392.671,441.857,1361.461,466.378,1342.268,499.8C1323.166,533.064,1316.971,572.712,1334.405,606.88C1353.499,644.301,1389.085,672.349,1431.07,673.84" fill="rgba(28, 83, 142, 0.4)" class="triangle-float3"></path>
+              <path d="M1274.64 426.7 a32.06 32.06 0 1 0 64.12 0 a32.06 32.06 0 1 0 -64.12 0z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float3"></path>
+              <path d="M1272.26 429.08 a36.82 36.82 0 1 0 73.64 0 a36.82 36.82 0 1 0 -73.64 0z" fill="rgba(28, 83, 142, 0.4)" class="triangle-float2"></path>
+            </g>
+            <defs>
+              <mask id="SvgjsMask2000"><rect width="1440" height="560" fill="#ffffff"></rect></mask>
+              <linearGradient x1="84.72%" y1="-39.29%" x2="15.28%" y2="139.29%" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient2001">
+                <stop stop-color="rgba(14, 42, 71, 1)" offset="0.34"></stop>
+                <stop stop-color="rgba(0, 48, 158, 1)" offset="0.92"></stop>
+              </linearGradient>
+              <style>
+                @keyframes float1 {
+                  0%{transform: translate(0, 0)}
+                  50%{transform: translate(-10px, 0)}
+                  100%{transform: translate(0, 0)}
+                }
+                .triangle-float1 {
+                  animation: float1 5s infinite;
+                }
+                @keyframes float2 {
+                  0%{transform: translate(0, 0)}
+                  50%{transform: translate(-5px, -5px)}
+                  100%{transform: translate(0, 0)}
+                }
+                .triangle-float2 {
+                  animation: float2 4s infinite;
+                }
+                @keyframes float3 {
+                  0%{transform: translate(0, 0)}
+                  50%{transform: translate(0, -10px)}
+                  100%{transform: translate(0, 0)}
+                }
+                .triangle-float3 {
+                  animation: float3 6s infinite;
+                }
+              </style>
+            </defs>
+            `
+          }}
+        />
+
+      </div>
+
+      {/* Hero text content */}
+      <div className="relative max-w-3xl text-center">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-gray-800 mb-4">
+          Hi, I'm <span className="text-blue-600">Sahid Khan</span>
+        </h1>
+        <h2 className="text-2xl md:text-3xl text-gray-700 font-medium mb-6">
+          MERN Stack Developer
+        </h2>
+        <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+          Passionate about building fast and modern web applications using the MERN stack.
+          I love solving problems and crafting smooth user experiences.
+        </p>
+        <a
+          href="/Sahid_Khan_MERN_Developer.pdf"
+          download
+          className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300"
+        >
+          Download Resume
+        </a>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
